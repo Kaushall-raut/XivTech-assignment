@@ -1,5 +1,10 @@
-
+import { useContext } from "react";
+import { Data } from "../context/DataProvider";
 
 export const Home = () => {
-  return <div  >Home</div>;
+  const name = useContext(Data);
+
+console.log(name);
+
+  return <div>Home </div>;
 };

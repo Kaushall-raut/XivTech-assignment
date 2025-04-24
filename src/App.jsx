@@ -4,6 +4,7 @@ import "./index.css";
 import { Home } from "./pages/Home";
 import About from "./pages/about";
 import Track from "./pages/Track";
+import { DataProvider } from "./context/DataProvider";
 
 export const App = () => {
   const route = createBrowserRouter([
@@ -17,16 +18,17 @@ export const App = () => {
     },
     {
       path: "track",
-      element: <Track/>,
+      element: <Track />,
     },
   ]);
   return (
     <div className="container">
-      <Sidebar/>
-      <main>
-<RouterProvider router={route}/>
-     {/* <Home/> */}
-      </main>
+      <Sidebar />
+      <DataProvider>
+        <main>
+          <RouterProvider router={route} />
+        </main>
+      </DataProvider>
     </div>
   );
 };
