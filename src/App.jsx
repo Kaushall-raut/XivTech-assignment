@@ -5,7 +5,9 @@ import { Home } from "./pages/Home";
 
 import Track from "./pages/Track";
 import { DataProvider } from "./context/DataProvider";
-import { About } from "./pages/About";
+import { About } from "./pages/AboutPage";
+
+
 
 export const App = () => {
   const route = createBrowserRouter([
