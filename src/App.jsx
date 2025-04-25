@@ -5,7 +5,7 @@ import { Home } from "./pages/Home";
 
 import Track from "./pages/Track";
 import { DataProvider } from "./context/DataProvider";
-import { About } from "./pages/AboutPage";
+import {  AboutPage } from "./pages/AboutPage";
 
 
 
@@ -17,7 +17,7 @@ export const App = () => {
     },
     {
       path: "about",
-      element: <About />,
+      element: <AboutPage />,
     },
     {
       path: "track",
