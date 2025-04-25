@@ -2,9 +2,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import "./index.css";
 import { Home } from "./pages/Home";
-import About from "./pages/about";
+
 import Track from "./pages/Track";
 import { DataProvider } from "./context/DataProvider";
+import { About } from "./pages/about";
 
 export const App = () => {
   const route = createBrowserRouter([
