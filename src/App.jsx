@@ -16,11 +16,11 @@ export const App = () => {
       element: <Home />,
     },
     {
-      path: "about",
+      path: "About",
       element: <AboutPage />,
     },
     {
-      path: "track",
+      path: "Track",
       element: <Track />,
     },
   ]);
