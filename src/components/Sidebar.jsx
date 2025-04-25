@@ -12,7 +12,7 @@ const Sidebar = () => {
           <a href="/" className="sidebar-link">
             Home
           </a>
-          <a href="about" className="sidebar-link">
+          <a href="About" className="sidebar-link">
             about
           </a>
           <a href="Track" className="sidebar-link">
