@@ -4,7 +4,7 @@ import { createContext, useEffect, useState } from "react";
 export const Data = createContext();
 // eslint-disable-next-line react/prop-types
 export const DataProvider = ({ children }) => {
-  const [liveData, setData] = useState({});
+  const [liveData, setData] = useState([]);
 
   const ReqData = async () => {
     const options = {

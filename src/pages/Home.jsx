@@ -6,5 +6,5 @@ export const Home = () => {
 
 console.log(name);
 
-  return <div>Home </div>;
+  return <div className="home"><h2>Welcome to the website ,visit track section to track crypto coins value</h2> </div>;
 };

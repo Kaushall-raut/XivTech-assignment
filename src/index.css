@@ -72,3 +72,48 @@ main {
   background-color: #34495e;
   padding-left: 10px;
 }
+
+.table-container {
+  /* min-height: 1rem; */
+  height: 80vh;
+  overflow: auto;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  & img{
+height: 2rem;
+  }
+}
+
+
+.custom-table {
+  height: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.custom-table thead {
+  /* min-height: 1rem; */
+  color: black;
+  background-color: #f2f2f2;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-table tr:hover {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.home{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
